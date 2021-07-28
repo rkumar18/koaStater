@@ -1,0 +1,35 @@
+{
+  "name": "demoproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/core/app.js",
+    "eslint": "node_modules/.bin/eslint",
+    "lint": "npm run eslint src",
+    "lintf": "npm run eslint src -- --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bull": "^3.26.0",
+    "compression": "^1.7.4",
+    "dotenv": "^10.0.0",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "mongoose": "^5.13.3",
+    "node-input-validator": "^4.4.1",
+    "nodemailer": "^6.6.3",
+    "sharp": "^0.28.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
